@@ -1,0 +1,140 @@
+body {
+    /* grå bakgrundsbild på alla sidor */
+    background-color: rgb(219, 219, 219);
+}
+
+h1 {
+    /* mitt namn i mitten med blå färg och annan design på text */
+    text-align: center;
+    color: rgba(1, 1, 41, 0.678);
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+}
+
+h2 {
+    /* citat i mitten med blå färg, annan design på text */
+    color: rgba(1, 1, 41, 0.678);
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+}
+
+#citat {
+    /* citatet på "hem" sidan i kursift och i mitten */
+    font-style: italic;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img {
+    /* oval bild på mig i mitten på "hem" sidan */
+    width: 155px;
+    height: 200px;
+    border-radius: 50%;
+    margin: auto;
+    display: flex;
+}
+
+.foton {
+    /* foton inlagda på "inspo" sidan i mitten med mellanrum */
+    width: 200px;
+    height: 250px;
+    border-radius: 0%;
+    margin: 0;
+}
+
+#galleri {
+    /* mellanrum mellan fotona och navigations bar */
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 1%;
+    padding: 1% 0% 1% 0%;
+}
+
+section {
+    /* sketion med namn och info om mig, annan text design */
+    width: 20rem;
+    margin: auto;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#citat {
+    /* bredd och stop för fortsättning på citatet på "hem" sidan */
+    width: 20rem;
+    margin: auto;
+}
+
+ul {
+    /* navigations bar för "hem", "inspo", "kontakt" med färg, mellanrum */
+    list-style-type: none;
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3333335e;
+}
+
+li {
+    /* för att få länkarna bredvid varandra används float */
+    float: left;
+}
+
+li a {
+    /* storlek på ramen och färg (rgb 255,255,255) på länkarna  */
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    /* gör att länkarna blir en annan färg när man hover över dem */
+    background-color: #11111139;
+}
+
+main {
+    /* navigations bar i "inspo" sidan med inspolänkar har en kortare rad */
+    margin: 0 30%;
+}
+
+#citat2 {
+    /* citatet mitten på sidan, text förändras ej om sidan minskas */
+    margin-left: 15%;
+    white-space: nowrap;
+}
+
+.fotografi {
+    /* längd på text och mitten av sidan */
+    width: 20rem;
+    margin-left: 28%;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ol {
+    /* hoverfärg 33333368 */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #33333368;
+}
+
+#länkar {
+    /* länkarnas (VSCO, osv) mellanrum till varandra */
+    display: flex;
+    justify-content: space-evenly;
+    white-space: nowrap;
+    min-width: 400px;
+}
+
+footer {
+    /* text med länkar till sociala medier, mitten längst ner på alla sidor */
+    text-align: center;
+    display: block;
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    bottom: 5%;
+}
